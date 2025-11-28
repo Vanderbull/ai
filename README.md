@@ -20,6 +20,8 @@ curl -fsSL https://ollama.com/install.sh | sh
 10. pip install schedule
 11. pip install python-dateutil
 12. pip install pandas
+13. pip install psutil
+
 
 # Kör agenten med nohup och skicka output till en loggfil
 nohup venv/bin/python agent.py > agent.log 2>&1 &
