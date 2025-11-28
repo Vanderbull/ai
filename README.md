@@ -21,6 +21,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 11. pip install python-dateutil
 12. pip install pandas
 13. pip install psutil
+14. pip install psutil wmi
 
 
 # Kör agenten med nohup och skicka output till en loggfil
